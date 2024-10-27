@@ -283,6 +283,10 @@ main {
   box-shadow: 2px 2px 0 currentColor;
 }
 
+.floppy {
+  inline-size: 39px;
+}
+
 @media (width <= 375px) {
   .header {
     padding-block-start: 120px;
@@ -300,6 +304,11 @@ main {
     width: 28px;
     height: 28px;
     margin-inline-end: 0;
+  }
+
+  .floppy {
+    width: 39px;
+    height: 39px;
   }
 }
 
